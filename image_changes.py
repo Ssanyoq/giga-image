@@ -16,4 +16,4 @@ def resize(image_file: str, x: int, y: int, save_file: str) -> None:
 
 
 if __name__ == '__main__':
-    resize('test_images/img.png', 35, 35, 'test_images/new_img.png')
+    resize('test_images/img.png', 35, 35, 'test_images/new_img.png')  #
