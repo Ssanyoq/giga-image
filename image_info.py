@@ -3,11 +3,11 @@ from math import gcd
 
 
 def info(image_file: str) -> None:
-    '''
+    """
     Shows an information about given image
     :param image_file: relative path to an image
     :return: None
-    '''
+    """
 
     image = Image.open(image_file, 'r')
     pixels = image.getdata()
@@ -23,6 +23,7 @@ def info(image_file: str) -> None:
 
     print(f"This image can be divided {len(ways)} different ways:")
     print(*[f"{way[0]}x{way[1]} ({way[0] * way[1]} parts)" for way in ways], sep='\n')
+
 
 if __name__ == '__main__':
     info('test_images/img copy.png')
