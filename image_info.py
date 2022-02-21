@@ -32,4 +32,4 @@ def info(image_file: str, silent=False) -> tuple:
 
 
 if __name__ == '__main__':
-    info('test_images/new_img.png')
+    info('test_images/img_1.png')
