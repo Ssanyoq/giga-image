@@ -8,7 +8,6 @@ def resize(image_file: str, x: int, y: int, save_file: str) -> None:
     :param x: new x size
     :param y: new y size
     :param save_file: where to save a resized version
-    :return: None
     """
     image = Image.open(image_file, 'r')
     new_image = image.resize((x, y))
